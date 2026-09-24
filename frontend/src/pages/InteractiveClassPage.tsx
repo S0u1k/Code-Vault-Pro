@@ -98,6 +98,7 @@ export const InteractiveClassPage: React.FC = () => {
   const [currentStepIndex, setCurrentStepIndex] = useState<number>(0);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [speed, setSpeed] = useState<PlaybackSpeed>('normal');
+  const [portraitTab, setPortraitTab] = useState<'visualizer' | 'code' | 'explanation'>('visualizer');
 
   // Layout & Fullscreen detection
   const layout = useDeviceLayout();
@@ -192,8 +193,6 @@ export const InteractiveClassPage: React.FC = () => {
       },
     });
   };
-
-  const [portraitTab, setPortraitTab] = useState<'visualizer' | 'code' | 'explanation'>('visualizer');
 
   // Dedicated Mobile Landscape / Fullscreen Learning Mode
   if (isFullscreen || (layout.isMobile && layout.isLandscape)) {
