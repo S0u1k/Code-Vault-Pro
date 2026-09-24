@@ -68,7 +68,7 @@ const TEAM_MEMBERS: TeamMember[] = [
       { name: 'TypeScript', colorClass: 'bg-indigo-500/15 text-indigo-300 border-indigo-500/30' },
       { name: 'DSA', colorClass: 'bg-purple-500/15 text-purple-300 border-purple-500/30' },
     ],
-    email: 'rupanjan@codevault.ai',
+    email: 'rupanjan9@gmail.com',
     phone: '9123642268',
     github: 'https://github.com/RupanjanDutta2006',
     portfolio: 'https://linktr.ee/TheCodeEngineer',
